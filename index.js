@@ -36,8 +36,8 @@ function getSize(sizeOptions, width, height){
         sizeOptions.max || (sizeOptions.max = 10000);
         sizeOptions.scalar || (sizeOptions.scalar = 1.1);
 
-        width = scale(sizeOptions.min, sizeOptions.max, sizeOptions.scalar, width);
-        height = scale(sizeOptions.min, sizeOptions.max, sizeOptions.scalar, height);
+        width = scale(sizeOptions.min, sizeOptions.max, sizeOptions.scalar, parseInt(width));
+        height = scale(sizeOptions.min, sizeOptions.max, sizeOptions.scalar, parseInt(height));
     }
     return [width, height];
 }
