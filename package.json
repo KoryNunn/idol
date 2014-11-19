@@ -1,6 +1,6 @@
 {
   "name": "idol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto svg to png converter with caching and stepped sizing.",
   "main": "index.js",
   "scripts": {
