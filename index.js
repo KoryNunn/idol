@@ -82,7 +82,6 @@ function initIdol(imagesDirectory, cacheDirectory, sizeOptions, maxAge){
             })
             (['exists'], function(exists){
                 if(exists){
-                    console.log('from cache');
                     return done();
                 }
 
