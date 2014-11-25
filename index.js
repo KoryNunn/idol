@@ -76,8 +76,6 @@ function initIdol(imagesDirectory, cacheDirectory, sizeOptions, maxAge){
                 return callback(null, cacheFilePath)
             }
 
-            console.log(fs.exists(cacheFilePath));
-
             kgo
             ('exists', function(done){
                 fs.exists(cacheFilePath, done.bind(null, null));
